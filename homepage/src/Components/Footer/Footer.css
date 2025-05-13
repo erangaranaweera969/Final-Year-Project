@@ -1,0 +1,87 @@
+/* ----------------- */
+/* FIXED FOOTER - ENSURE IT DOES NOT OVERLAP CONTENT */
+/* ----------------- */
+.footer {
+  background: #121212 !important;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 100%;
+  position: static; /* Changed from relative to static */
+  z-index: 10;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 20px 40px;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.footerInfo, .footerLinks, .footerContact {
+  flex: 2;
+  min-width: 350px;
+  text-align: center;
+}
+
+.footerLinks a {
+  display: inline-flexbox;
+  color: white;
+  text-decoration: line-through;
+  margin: 5px 10px;
+  transition: color 0.3s;
+}
+
+.footerLinks a:hover {
+  color: #ffcc00;
+}
+
+.footerSocialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.socialIcon {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+.socialIcon:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+
+/* Fix Footer Positioning Without Overlapping Content */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex-grow: 1;
+  padding-bottom: 120px; /* Ensures space for footer */
+}
+
+.footer {
+  margin-top: auto;
+}

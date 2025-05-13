@@ -1,0 +1,108 @@
+{
+  "Beginner Basics": [
+    {
+      "question": "What does 'Ciao' mean in Italian?",
+      "options": ["Hello", "Goodbye", "Thank you", "Please"],
+      "correctAnswer": "Hello"
+    },
+    {
+      "question": "How do you say 'Thank you' in Italian?",
+      "options": ["Grazie", "Prego", "Scusa", "Ciao"],
+      "correctAnswer": "Grazie"
+    },
+    {
+      "question": "What is the Italian word for 'water'?",
+      "options": ["Acqua", "Vino", "Latte", "Pane"],
+      "correctAnswer": "Acqua"
+    },
+    {
+      "question": "How do you say 'Goodbye' in Italian?",
+      "options": ["Arrivederci", "Ciao", "Buongiorno", "Grazie"],
+      "correctAnswer": "Arrivederci"
+    },
+    {
+      "question": "Which of these means 'Yes' in Italian?",
+      "options": ["Sì", "No", "Forse", "Mai"],
+      "correctAnswer": "Sì"
+    }
+  ],
+  "Intermediate Grammar": [
+    {
+      "question": "What is the correct form of 'essere' for 'lui'?",
+      "options": ["è", "sei", "sono", "siamo"],
+      "correctAnswer": "è"
+    },
+    {
+      "question": "Which article goes with 'libro'?",
+      "options": ["il", "la", "lo", "l'"],
+      "correctAnswer": "il"
+    },
+    {
+      "question": "What is the plural of 'ragazzo'?",
+      "options": ["ragazzi", "ragazze", "ragazzo", "ragazza"],
+      "correctAnswer": "ragazzi"
+    },
+    {
+      "question": "What is the past participle of 'mangiare'?",
+      "options": ["mangiato", "mangia", "mangiando", "mangerò"],
+      "correctAnswer": "mangiato"
+    },
+    {
+      "question": "Which pronoun replaces 'Maria e io'?",
+      "options": ["Noi", "Loro", "Voi", "Lei"],
+      "correctAnswer": "Noi"
+    }
+  ],
+  "Advanced Conversation": [
+    {
+      "question": "How do you say 'I would like a coffee, please'?",
+      "options": [
+        "Vorrei un caffè, per favore",
+        "Dammi un caffè, grazie",
+        "Io voglio caffè ora",
+        "Prendo un caffè"
+      ],
+      "correctAnswer": "Vorrei un caffè, per favore"
+    },
+    {
+      "question": "Translate: 'She is going to the market.'",
+      "options": [
+        "Lei va al mercato",
+        "Lei è andata al mercato",
+        "Lei sta andando al mercato",
+        "Lei va a mercato"
+      ],
+      "correctAnswer": "Lei va al mercato"
+    },
+    {
+      "question": "Which is a polite way to ask for help?",
+      "options": [
+        "Può aiutarmi, per favore?",
+        "Aiutami subito!",
+        "Dammi aiuto!",
+        "Tu devi aiutarmi"
+      ],
+      "correctAnswer": "Può aiutarmi, per favore?"
+    },
+    {
+      "question": "How do you say 'I have been learning Italian for two years'?",
+      "options": [
+        "Studio italiano da due anni",
+        "Sto imparando italiano per due anni",
+        "Io imparo italiano due anni",
+        "Ho imparato italiano due anni"
+      ],
+      "correctAnswer": "Studio italiano da due anni"
+    },
+    {
+      "question": "What's the best way to ask 'Where is the nearest train station?'",
+      "options": [
+        "Dove si trova la stazione più vicina?",
+        "Quando parte il treno?",
+        "Come va il treno?",
+        "Dove treno adesso?"
+      ],
+      "correctAnswer": "Dove si trova la stazione più vicina?"
+    }
+  ]
+}

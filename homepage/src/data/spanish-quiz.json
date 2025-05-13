@@ -1,0 +1,109 @@
+{
+    "Beginner Basics": [
+      {
+        "question": "What is 'Hello' in Spanish?",
+        "options": ["Hola", "Adiós", "Gracias", "Por favor"],
+        "correctAnswer": "Hola"
+      },
+      {
+        "question": "How do you say 'Thank you' in Spanish?",
+        "options": ["Hola", "Adiós", "Gracias", "Por favor"],
+        "correctAnswer": "Gracias"
+      },
+      {
+        "question": "Which of these means 'yes' in Spanish?",
+        "options": ["Sí", "Oui", "Ja", "Sì"],
+        "correctAnswer": "Sì"
+      },
+      {
+        "question": "What is the Spanish word for 'goodbye'?",
+        "options": ["Adiós", "Au revoir", "Arrivederci", "Tschüss"],
+        "correctAnswer": "Adiós"
+      },
+      {
+        "question": "What does 'por favor' mean?",
+        "options": ["Please", "Thank you", "Sorry", "Hello"],
+        "correctAnswer": "Please"
+      }
+
+    ],
+    "Intermediate Grammar": [
+      {
+        "question": "What is the correct conjugation of 'comer' (to eat) for 'yo' in present tense?",
+        "options": ["Como", "Comes", "Come", "Comen"],
+        "correctAnswer": "Como"
+      },
+      {
+        "question": "Which of the following is the correct conjugation of 'ser' (to be) in 'yo' form?",
+        "options": ["soy", "eres'", "es", "somos"],
+        "correctAnswer": "soy"
+      },
+      {
+        "question": "What is the plural form of 'el libro' (the book)?",
+        "options": ["los libros", "las libro", "el libros", "los libro"],
+        "correctAnswer": "los libros"
+      },
+      {
+        "question": "Choose the correct indirect object pronoun: 'Ella ____ da un regalo a Juan.'",
+        "options": ["le", "lo", "la", "te"],
+        "correctAnswer": "le"
+      },
+      {
+        "question": "Which is the correct past tense (preterite) form of 'comer' (to eat) for 'yo'?",
+        "options": ["comí", "comió", "comiste", "como"],
+        "correctAnswer": "comí`"
+      }
+    ],
+    "Advanced Conversation": [
+      {
+        "question": "How would you say 'I would like to make a reservation' in Spanish?",
+        "options": [
+          "Quiero hacer una reservación",
+          "Quiero comer una reservación",
+          "Quiero ver una reservación",
+          "Quiero hablar una reservación"
+        ],
+        "correctAnswer": "Quiero hacer una reservación"
+      },
+      {
+        "question": "What does the phrase '¿Cómo te ha ido?' mean?",
+        "options": [
+          "How has it been going?",
+          "Where are you?",
+          "Do you understand?",
+          "When did you leave?"
+        ],
+        "correctAnswer": "How has it been going?"
+      },
+      {
+        "question": "What is a suitable response to 'Mucho gusto'?",
+        "options": [
+          "Igualmente", "Buenos días", "Adiós", "Por favor"
+        ],
+        "correctAnswer": "Igualmente"
+      },
+      {
+        "question": "Which of the following expresses a suggestion?",
+        "options": [
+          "¿Por qué no vamos al cine?",
+          "¿Dónde está la biblioteca?", 
+          "Voy a estudiar.",
+          "Estoy cansado."
+        ],
+        "correctAnswer": "¿Por qué no vamos al cine?"
+      },
+      {
+        "question": "What is the meaning of the idiom 'estar en las nubes'?",
+        "options": [
+          "To be daydreaming",
+          "To be angry",
+          "To be broke",
+          "To be tired"
+        ],
+        "correctAnswer": "To be daydreaming"
+      }
+
+      
+
+    ]
+  }

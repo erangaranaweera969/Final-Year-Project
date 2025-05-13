@@ -1,0 +1,155 @@
+/* ----------------- */
+/* GENERAL PAGE STYLES */
+/* ----------------- */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0d1117;
+  color: #f4f4f4;
+  height: 100%;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* ----------------- */
+/* HERO SECTION */
+/* ----------------- */
+.custom-main-banner {
+  background: linear-gradient(135deg, #004d7a, #008793);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 20px;
+  margin-top: 8%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.custom-banner-content h2 {
+  font-size: 2rem;
+  max-width: 80%;
+  margin: 10px auto 30px auto;
+  line-height: 1.6;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.custom-banner-content p {
+  font-size: 1.2rem;
+  max-width: 70%;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.cta-button {
+  padding: 14px 28px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #ff6600;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  background: #e65c00;
+  transform: scale(1.05);
+}
+
+.cta-button:focus {
+  outline: 2px solid #ff6600;
+  outline-offset: 2px;
+}
+
+/* ----------------- */
+/* FEATURES SECTION */
+/* ----------------- */
+.custom-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.custom-feature {
+  width: 30%;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.custom-feature h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #004d7a;
+  margin-bottom: 15px;
+}
+
+.custom-feature p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive Design for Features */
+@media (max-width: 768px) {
+  .custom-feature {
+    width: 100%;
+  }
+}
+
+/* ----------------- */
+/* RESPONSIVE DESIGN */
+/* ----------------- */
+@media (max-width: 768px) {
+  .custom-main-banner {
+    min-height: 80vh;
+    margin-top: 60px;
+  }
+
+  .custom-banner-content h2 {
+    font-size: 2.5rem;
+    max-width: 90%;
+  }
+
+  .custom-banner-content p {
+    font-size: 1.1rem;
+    max-width: 90%;
+  }
+
+  .cta-button {
+    font-size: 1.1rem;
+    padding: 12px 24px;
+  }
+}
+
+/* ----------------- */
+/* ANIMATIONS */
+/* ----------------- */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.custom-main-banner, .custom-feature {
+  animation: fadeIn 1s ease-in-out;
+}

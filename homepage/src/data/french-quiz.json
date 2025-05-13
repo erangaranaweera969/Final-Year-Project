@@ -1,0 +1,108 @@
+{
+  "Beginner Basics": [
+    {
+      "question": "What does 'Bonjour' mean?",
+      "options": ["Hello", "Goodbye", "Please", "Thanks"],
+      "correctAnswer": "Hello"
+    },
+    {
+      "question": "How do you say 'Thank you' in French?",
+      "options": ["Merci", "Bonjour", "Salut", "Pardon"],
+      "correctAnswer": "Merci"
+    },
+    {
+      "question": "What is the French word for 'water'?",
+      "options": ["Eau", "Vin", "Thé", "Lait"],
+      "correctAnswer": "Eau"
+    },
+    {
+      "question": "How do you say 'Goodbye' in French?",
+      "options": ["Au revoir", "Merci", "Salut", "Bienvenue"],
+      "correctAnswer": "Au revoir"
+    },
+    {
+      "question": "Which of these means 'Yes' in French?",
+      "options": ["Oui", "Non", "Peut-être", "Jamais"],
+      "correctAnswer": "Oui"
+    }
+  ],
+  "Intermediate Grammar": [
+    {
+      "question": "Which form of 'être' goes with 'il'?",
+      "options": ["suis", "es", "est", "êtes"],
+      "correctAnswer": "est"
+    },
+    {
+      "question": "What is the plural form of 'le'?",
+      "options": ["les", "la", "du", "des"],
+      "correctAnswer": "les"
+    },
+    {
+      "question": "What is the feminine form of 'petit'?",
+      "options": ["petite", "petits", "petites", "petit"],
+      "correctAnswer": "petite"
+    },
+    {
+      "question": "Choose the correct past participle of 'manger'",
+      "options": ["mangé", "mangait", "mange", "manges"],
+      "correctAnswer": "mangé"
+    },
+    {
+      "question": "Which pronoun replaces 'Marie et moi'?",
+      "options": ["Ils", "Nous", "Vous", "Elles"],
+      "correctAnswer": "Nous"
+    }
+  ],
+  "Advanced Conversation": [
+    {
+      "question": "How do you say 'I would like a coffee, please'?",
+      "options": [
+        "Je voudrais un café, s'il vous plaît",
+        "Je bois un café maintenant",
+        "Donnez-moi un café, merci",
+        "Je veux un café maintenant"
+      ],
+      "correctAnswer": "Je voudrais un café, s'il vous plaît"
+    },
+    {
+      "question": "Translate: 'She is going to the market.'",
+      "options": [
+        "Elle va au marché",
+        "Elle est allée au marché",
+        "Elle irait au marché",
+        "Elle vient de marché"
+      ],
+      "correctAnswer": "Elle va au marché"
+    },
+    {
+      "question": "Which is a polite way to ask for help?",
+      "options": [
+        "Pouvez-vous m'aider, s'il vous plaît?",
+        "Aide-moi!",
+        "Tu dois m'aider",
+        "Donne-moi de l'aide"
+      ],
+      "correctAnswer": "Pouvez-vous m'aider, s'il vous plaît?"
+    },
+    {
+      "question": "How do you say 'I have been learning French for two years'?",
+      "options": [
+        "J'apprends le français depuis deux ans",
+        "J'ai appris le français deux ans",
+        "Je suis en train d'apprendre le français deux ans",
+        "J'apprends français pour deux ans"
+      ],
+      "correctAnswer": "J'apprends le français depuis deux ans"
+    },
+    {
+      "question": "What's the best way to ask 'Where is the nearest metro station?'",
+      "options": [
+        "Où est la station de métro la plus proche ?",
+        "Quel métro est ici ?",
+        "Comment va le métro ?",
+        "Où je peux métro ?"
+      ],
+      "correctAnswer": "Où est la station de métro la plus proche ?"
+    }
+  ]
+}
